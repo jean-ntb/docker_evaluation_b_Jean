@@ -68,7 +68,7 @@ docker push <username>/<image>:<tag>
 
 🔹 14. Quelle est l’image Docker la plus petite possible ?
 
-L’image scratch (0 Mo), qui ne contient aucun système de fichiers ni bibliothèque.
+L’image scratch , qui ne contient aucun système de fichiers ni bibliothèque.
 
 🔹 15. Comment le client Docker communique-t-il avec dockerd ?
 
@@ -87,7 +87,7 @@ Exercice 2 :
 
 1. Cloner le projet
 
-git clone <url_du_repository>
+git clone <https://github.com/jean-ntb/docker_evaluation_b_Jean>
 cd tp_docker
 
 2. Démarrer l’environnement de développement
