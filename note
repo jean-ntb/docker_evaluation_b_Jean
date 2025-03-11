@@ -1,0 +1,12 @@
+
+QUuestion 2 :
+
+docker exec -it database bash
+mysql -u db_client -p
+
+QUestion 3 :
+
+
+ Stocker des mots de passe dans des variables d’environnement est risqué, car elles sont visibles via docker inspect, peuvent être exposées dans les logs et accidentellement versionnées.
+
+✅ Docker Secrets est la solution recommandée : les secrets sont chiffrés, stockés en fichiers sécurisés et accessibles uniquement aux services autorisés.
